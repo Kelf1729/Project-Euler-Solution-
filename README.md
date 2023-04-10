@@ -6,3 +6,4 @@ Reunião dos exercícios do Projeto Euler, soluções e discussões sobre o mesm
 
 A motivação para iniciar o Projeto Euler, e sua continuação, é fornecer uma plataforma para a mente inquisitiva mergulhar em áreas desconhecidas e aprender novos conceitos em um contexto divertido e recreativo."
 
+[Página do Projeto Euler](https://projecteuler.net/)
