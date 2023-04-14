@@ -49,5 +49,22 @@ O valor de n é igual a 34, sendo o múlitplo mais próximo 33, portanto temos q
 
 $3, 6, 9, \dots, 30, 33$
 
-... continua 
+Aqui podemos "normalizar" a sequência de tal forma que ele seja o nova sequência:
 
+$3(1, 2, 3, \dots, 10, 11)$
+
+Essa forma será útil para calcular a soma dos valores de forma manual, seguindo a seguinte manipulação:
+
+$\left(\frac{1}{\sqrt{5}}\left(\frac{1+\sqrt{5}}{2}\right)^n - \frac{1}{\sqrt{5}}\left(\frac{1-\sqrt{5}}{2}\right)^n\right)$
+
+Aplicando a sequência normalizada 
+
+$\frac{1}{\sqrt{5}} \left(\left(\frac{1+\sqrt{5}}{2}\right)^{3n} - \left(\frac{1-\sqrt{5}}{2}\right)^{3n}\right)$
+
+Isolando o n e separando as somas temos a soma de duas PGs, onde bastaria isolar a razão a aplicar a fórmula de soma de uma PG de n termos, 
+
+$\frac{1}{\sqrt{5}} \left(\left(\frac{1+\sqrt{5}}{2}\right)^3\right)^n \left(\left(\frac{1+\sqrt{5}}{1-\sqrt{5}}\right)^n - \left(\frac{1-\sqrt{5}}{1+\sqrt{5}}\right)^n\right)$
+
+$$ \sum_{n=1}^{11}\frac{1}{\sqrt{5}} \left( \left( \frac{1 + \sqrt{5}}{2} \right)^3 \right)^n \left( \left( \frac{1 + \sqrt{5}}{1 - \sqrt{5}} \right)^n - \left( \frac{1 - \sqrt{5}}{1 + \sqrt{5}} \right)^n \right) = 4613732$$
+
+Sendo a solução 
