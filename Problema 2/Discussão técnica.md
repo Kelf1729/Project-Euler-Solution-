@@ -36,8 +36,18 @@ Somando dois números ímpares, temos um número de 2, portanto sendo um número
 
 $$(2n+1) + (2m+1) = 2n + 2m + 2 = 2(n + m + 1)$$
 
-A sequência de fibonacci apresenta sempre, dois números impares e depois um número par, portanto temos uma presença de número para mas posições:
+A sequência de fibonacci apresenta sempre, dois números impares e depois um número par, queremos apenas os números pares, logos os números na sequência abaixo:
 
 3, 6, 9, 12, ... 
 
-#Continua ... 
+Agora é preciso achar o maior número de fibonacci que seja desse sequência, logo múltiplo de 3 de tal forma que o mesmo número seja maior que 4 milhões, para fazer
+isso basta usar a "fórmula fechada" da sequência de Fibonacci e igualar isso a 4 milhões e encontrar o valor.
+
+$\frac{1}{\sqrt{5}} \left(\left(\frac{1+\sqrt{5}}{2}\right)^n - \left(\frac{1-\sqrt{5}}{2}\right)^n\right) < 4000000$
+
+O valor de n é igual a 34, sendo o múlitplo mais próximo 33, portanto temos que somar os números de fibonacci de tal forma a sequência de soma seja: 
+
+$3, 6, 9, \dots, 30, 33$
+
+... continua 
+
