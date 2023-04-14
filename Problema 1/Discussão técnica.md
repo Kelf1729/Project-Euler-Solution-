@@ -24,9 +24,9 @@ Onde a intersecção pode ser interpretada como:
 
 $$P(3\cup 5) = 15_1, 30_2, 45_3, \dots, 15_n $$
 
-Para obter o número n de cada, PA basta considera o maior número múltiplo de 3,5 e 15 abaixo de 1000, sendo respectivamente, 333,200 e 60. 
+Para obter o número n de cada, PA basta considera o maior número múltiplo de 3,5 e 15 abaixo de 1000, sendo respectivamente, 333,199 e 66. 
 Logo a solução do problema é:
 
-$$\sum_{i=1}^{333} 3_i + \sum_{i=1}^{200} 5_i - \sum_{i=1}^{60} 15_i =  233168$$
+$$\sum_{i=1}^{333} 3_i + \sum_{i=1}^{199} 5_i - \sum_{i=1}^{66} 15_i =  233168$$
 
 Segue no arquivo em python da solução. 
